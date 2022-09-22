@@ -97,37 +97,37 @@ VALUES(8,'Hot','2017');
 
 --добавляем треки
 INSERT INTO track
-VALUES(1,'Gun','2,3', 1);
+VALUES(1,'Gun','2.3', 1);
 
 INSERT INTO track
-VALUES(2,'Star','3,6', 2);
+VALUES(2,'Star','3.6', 2);
 
 INSERT INTO track
 VALUES(3,'My Mikky','4', 3);
 
 INSERT INTO track
-VALUES(4,'All See Night','3,8', 4);
+VALUES(4,'All See Night','3.8', 4);
 
 INSERT INTO track
 VALUES(5,'Break Me','3', 5);
 
 INSERT INTO track
-VALUES(6,'Apple Free','2,5', 6);
+VALUES(6,'Apple Free','2.5', 6);
 
 INSERT INTO track
-VALUES(7,'New Year','2,8', 7);
+VALUES(7,'New Year','2.8', 7);
 
 INSERT INTO track
-VALUES(8,'Black mail','4,2', 8);
+VALUES(8,'Black mail','4.2', 8);
 
 INSERT INTO track
 VALUES(9,'Time to Die','4', 4);
 
 INSERT INTO track
-VALUES(10,'If you can it','3,4', 3);
+VALUES(10,'If you can it','3.4', 3);
 
 INSERT INTO track
-VALUES(11,'Nice time','3,7', 2);
+VALUES(11,'Nice time','3.7', 2);
 
 INSERT INTO track
 VALUES(12,'Perfect','3', 1);
@@ -139,7 +139,10 @@ INSERT INTO track
 VALUES(14,'Mystery','2', 5);
 
 INSERT INTO track
-VALUES(15,'Z','3,9', 7);
+VALUES(15,'Z','3.9', 7);
+
+INSERT INTO track
+VALUES(16,'Maveric','2.2', 2);
 
 
 --добавим сборники
@@ -214,6 +217,18 @@ VALUES(5,14);
 INSERT INTO sbor_track(sbor_id, track_id)
 VALUES(1,15);
 
+--добавим совместные альбомы
 
+INSERT INTO together_album (artist_id, albums_id)
+VALUES(1,1);
+
+INSERT INTO together_album (artist_id, albums_id)
+VALUES(2,1);
+
+INSERT INTO together_album (artist_id, albums_id)
+VALUES(3,2);
+
+INSERT INTO together_album (artist_id, albums_id)
+VALUES(4,3);
 
 

@@ -32,7 +32,7 @@ create table public.Track
 (
 	Track_id int primary key,
 	name varchar(128) not null,
-	time varchar not null,
+	time float8  not null,
 	albums_id INTEGER NOT NULL REFERENCES Allbums(Albums_id)	
 );
 
